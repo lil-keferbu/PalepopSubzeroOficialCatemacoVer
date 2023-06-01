@@ -1,0 +1,83 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+    background-color:#004aad;
+}
+
+.nav-item:hover{
+    background-color: rgb(224, 91, 76);
+    border-radius: .3rem;
+}
+
+
+.jumbotron-fluid {
+    background-image: url("https://cdn7.kiwilimon.com/ss_secreto/3100/960x640/3100.jpg.jpg");
+    /*up to -ms-filter used to flip background image*/
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-align: left;
+    height:60vh;
+}
+
+
+/*flipped the text, as jumbotron had to be flipped*/
+.jumbotron .container {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.jumbotron-fluid h1 span, .jumbotron-fluid p i{
+    background-color: rgba(209, 52, 52, 0.8);
+    border-radius: 20px;
+}
+
+
+.sectionTitle {
+    padding: 2rem;
+    text-align: center;
+}
+
+.col-md {
+    padding-bottom: 2rem;
+}
+
+.card-body .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.contactUs {
+    background-color:#004aad;
+    color: white;
+}
+
+.contactUs .row {
+    margin: 0px;
+}
+
+.contactInfo {
+    font-size: 1.1rem;
+}
+
+hr {
+    border-top: double lightgray;
+}
+
+iframe {
+    width: inherit;
+    height: 18rem;
+}
